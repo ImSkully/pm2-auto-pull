@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ImSkully/pm2-auto-pull.git"
+		"url": "git+https://github.com/ImSkully/pm2-auto-pull.git"
 	},
 	"bugs": {
 		"url": "https://github.com/ImSkully/pm2-auto-pull/issues"
