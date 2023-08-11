@@ -1,9 +1,9 @@
 {
 	"name": "@imskully/pm2-auto-pull",
 	"author": "ImSkully",
-	"version": "0.0.1",
-	"license": "ISC",
-	"description": "A pm2 module that automatically pulls in the latest version from git.",
+	"version": "1.0.0",
+	"license": "LGPL-3.0-or-later",
+	"description": "A pm2 module that automatically pulls the latest git version for your pm2 processes.",
 	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,13 @@
 		"@pm2/io": "^5.0.0",
 		"async": "^3.2.4",
 		"pm2": "^5.3.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ImSkully/pm2-auto-pull.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ImSkully/pm2-auto-pull/issues"
 	},
 	"apps": [
 		{
