@@ -30,7 +30,7 @@ A simple and efficient [PM2](https://pm2.keymetrics.io) module that automaticall
 
 # Usage
 
-Once the module is installed and configured, it will automatically begin checking for any updates for all running processes from their respective connected git version controls.
+Once the module is installed and configured, it will automatically begin checking for any updates for all **running processes** from their respective connected git version controls, any offline processes will be skipped.
 
 > [!WARNING]  
 > This module will `git reset --hard` to the latest version (`HEAD`) from your configured git remote and will overwrite any local changes that have not been committed or stashed!
