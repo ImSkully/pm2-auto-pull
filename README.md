@@ -6,7 +6,7 @@
 <a href="./package-lock.json" target="_blank" alt="package-lock"><img src="https://img.shields.io/badge/package--lock-committed-brightgreen" /></a>
 <a href="https://www.npmjs.com/package/@imskully\/pm2-auto-pull" target="_blank" alt="npmjs Package"><img src="https://img.shields.io/npm/v/@imskully\/pm2-auto-pull.svg" /></a>
 
-A simple and efficient [PM2](https://pm2.keymetrics.io) module that automatically pulls the latest git version of your application every set interval.
+A simple and efficient [PM2](https://pm2.keymetrics.io) module that automatically pulls the latest git version for your pm2 processes, an improved implementation of [keymetrics/pm2-auto-pull](https://github.com/keymetrics/pm2-auto-pull).
 
 * ⚡️ Fast and lightweight with minimal overhead!
 * 🔧 Easy to install, ready to go immediately after installation
