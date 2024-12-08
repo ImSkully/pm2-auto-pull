@@ -34,7 +34,7 @@ async function fetchLatestVersion()
 
 				if (
 					!process?.pm2_env || // Skip if no pm2_env available.
-					process?.pm2_env != "online" || // Or if the process is not online.
+					process?.pm2_env?.status != "online" || // Or if the process is not online.
 					!process.pm2_env?.versioning // Or if the process has no configured version control.
 				) {
 					fetchStats.skipped.push(process.name);
