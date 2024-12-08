@@ -1,6 +1,6 @@
 # PM2 Auto Pull <a href="https://pm2.keymetrics.io" target="_blank" alt="pm2"><img src="https://img.shields.io/badge/pm2-2B037A.svg?logo=pm2" /></a>
 
-![Maintained](https://img.shields.io/maintenance/yes/2023.svg)
+![Maintained](https://img.shields.io/maintenance/yes/2025.svg)
 <a href="https://nodejs.org" target="_blank" alt="Node.js"><img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white" /></a>
 ![License](https://img.shields.io/github/license/ImSkully/pm2-auto-pull)
 <a href="./package-lock.json" target="_blank" alt="package-lock"><img src="https://img.shields.io/badge/package--lock-committed-brightgreen" /></a>
@@ -18,8 +18,8 @@ A simple and efficient [PM2](https://pm2.keymetrics.io) module that automaticall
 	```bash
 	pm2 install @imskully/pm2-auto-pull
 	```
-	> [!IMPORTANT]  
-	> Use `pm2 install`, not `npm install`!
+  > [!IMPORTANT]\
+  > Use `pm2 install`, not `npm install`!
 
 2. *(Optional)* The default fetch interval is 30 seconds, configure the update interval with the following command:
 	```bash
@@ -32,7 +32,7 @@ A simple and efficient [PM2](https://pm2.keymetrics.io) module that automaticall
 
 Once the module is installed and configured, it will automatically begin checking for any updates for all **running processes** from their respective connected git version controls, any offline processes will be skipped.
 
-> [!WARNING]  
+> [!WARNING]\
 > This module will `git reset --hard` to the latest version (`HEAD`) from your configured git remote and will overwrite any local changes that have not been committed or stashed!
 
 You can optionally enable verbose logging to see when an interval check is run along with an output of all processes that were checked, skipped, and updated:
