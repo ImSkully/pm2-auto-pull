@@ -1,7 +1,7 @@
 {
 	"name": "@imskully/pm2-auto-pull",
 	"author": "ImSkully",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"license": "LGPL-3.0-or-later",
 	"description": "A pm2 module that automatically pulls the latest git version for your pm2 processes.",
 	"main": "app.js",
