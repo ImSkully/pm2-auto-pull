@@ -23,7 +23,7 @@ A simple and efficient [PM2](https://pm2.keymetrics.io) module that automaticall
 
 2. *(Optional)* The default fetch interval is 30 seconds, configure the update interval with the following command:
 	```bash
-	pm2 set @imskully@pm2-auto-pull:interval <ms>
+	pm2 set @imskully/pm2-auto-pull:interval <ms>
 	```
 
 3. The module should restart and begin fetching on the configured interval!
